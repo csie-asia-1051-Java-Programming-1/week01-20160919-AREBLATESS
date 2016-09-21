@@ -11,19 +11,19 @@ public class hw03_105021008{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn=new Scanner(System.in);
-		float a =scn.nextInt();
-		float b =scn.nextInt();
-		float c =scn.nextInt();
-		float d =scn.nextInt();
-		float e =scn.nextInt();
-		float f =scn.nextInt();
+		float a =scn.nextFloat();
+		float b =scn.nextFloat();
+		float c =scn.nextFloat();
+		float d =scn.nextFloat();
+		float e =scn.nextFloat();
+		float f =scn.nextFloat();
 		float A=Math.min(a, b);
 		float B=Math.min(A, c);
 		float C=Math.min(B, d);
 		float D=Math.min(C, e);
 		float E=Math.min(D, f);
 		float F=Math.min(E, a);
-		System.out.print((float)(F));
+		System.out.print(Math.round((float)(F)));
 
 	}
 

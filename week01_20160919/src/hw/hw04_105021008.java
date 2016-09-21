@@ -14,7 +14,6 @@ public class hw04_105021008{
 		float a=scn.nextFloat();
 		float b=scn.nextFloat();
 		System.out.print(Math.pow(a,1.0/b));
-
 	}
 
 }
